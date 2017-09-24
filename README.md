@@ -1,4 +1,4 @@
-#How to use
+## How to use
 
 Clone this repo and then in command line type:
 
@@ -8,7 +8,7 @@ Clone this repo and then in command line type:
 
 --
 
-## Photo credits
+## Photo credits (in order of appearance)
 
 * [Nathan Anderson](https://unsplash.com/@nathananderson?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge "Download free do whatever you want high-resolution photos from Nathan Anderson")
 * [Larm Rmah](https://unsplash.com/@larm?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge "Download free do whatever you want high-resolution photos from Larm Rmah")
