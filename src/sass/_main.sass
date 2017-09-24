@@ -1,0 +1,86 @@
+.logo
+	position: fixed
+	top: 30px 
+	left: 30px 
+	background: #fff
+	display: block
+	z-index: 1000
+	width: 70px  
+	height: 70px 
+	text-align: center
+	line-height: 70px
+	font-size: 40px  
+	text-decoration: none
+	span
+		font-size: 10px 
+		display: block
+		position: absolute
+		bottom: 5px
+		left: 0
+		right: 0
+		text-align: center   
+		text-align: center
+		line-height: 1 
+.is-cloned
+	position: absolute !important
+	top: 0  
+	// opacity: .5 
+.items
+	height: 100vh 
+	width: 100vw
+	overflow: auto
+	white-space: nowrap
+	font-size: 0 
+.item
+	display: inline-block
+	width: 33.33%
+	height: 100vh  
+	font-size: 20px 
+	position: relative
+	
+	overflow: hidden
+	&__title
+		color: #fff 
+		font-weight: bold
+		font-family: Arial,sans-serif 
+		font-size: 40px 
+		position: absolute
+		bottom: 100px 
+		left: 20px
+		transition: transform .3s ease-in-out
+	&__bg
+		width: 100vw
+		height: 100vh
+		position: absolute
+		top: 0
+		left: 0   
+		background-size: cover
+		background-position: 50% 50%
+		background-repeat: no-repeat  
+		transform: translate(-30%,0)
+	&:hover
+		.item__title
+			transform: scale(1.1)
+	
+.content
+	padding: 50px 
+	font-size: 40px 
+	line-height: 1.5 
+	p
+		margin-bottom: 50px 
+.single
+	height: 100vh 
+	font-size: 20px 
+	position: relative
+	background-size: cover
+	background-position: 50% 50%
+	background-repeat: no-repeat
+	&__title
+		color: #fff 
+		font-weight: bold
+		font-family: Arial,sans-serif 
+		font-size: 40px 
+		position: absolute
+		bottom: 100px 
+		left: 20px
+		transform: translate(0,200px)

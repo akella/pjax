@@ -1,0 +1,49 @@
+---
+title: Index page
+posts:
+ - img: 1.jpg
+   title: Bla1
+   link: 1.html
+ - img: 2.jpg
+   title: Bla2
+   link: 2.html
+ - img: 3.jpg
+   title: Bla333
+   link: 3.html
+ - img: 4.jpg
+   title: Lorem
+   link: 4.html
+ - img: 5.jpg
+   title: Ipsum
+   link: 5.html
+ - img: 6.jpg
+   title: Dolor
+   link: 6.html
+
+---
+{% extends "layouts/_layout.html" %}
+
+{% block content %}
+	<!-- begin barba content -->
+	<div id="barba-wrapper">
+	  <div class="barba-container" data-namespace="List">
+
+		<!-- begin items -->
+		<div class="items">
+			{% for post in posts %}
+				<!-- begin item -->
+				<a href="{{post.link}}" class="item">
+					<div class="item__bg" style="background-image: url(img/{{post.img}})">
+						
+					</div>
+					<h2 class="item__title">{{post.title}}</h2>
+				</a>
+				<!-- end item -->
+			{% endfor %}
+			
+		</div>
+		<!-- end items -->
+	  </div>
+	</div>
+	<!-- end barba.js -->
+{% endblock%}
